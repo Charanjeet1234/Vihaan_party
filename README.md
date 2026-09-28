@@ -12,6 +12,6 @@ Open `script.js` and fill in the `PARTY` object at the top. Add the date, time, 
 2. In Vercel, choose **Add New → Project**, import the repository, and deploy. This is a static site: Framework Preset **Other**, no build command, and the root directory is this folder.
 3. Open the deployment URL on your phone and use **Share invitation** to send it on WhatsApp.
 
-For WhatsApp's link preview, set `og:image` in `index.html` to the full public URL of the image after deployment (for example, `https://your-domain.vercel.app/assets/moon-elephant.png`), then redeploy. WhatsApp may cache old previews.
+For WhatsApp's link preview, set `og:image` in `index.html` to the full public URL of the image after deployment (for example, `https://your-domain.vercel.app/assets/moon-elephant.webp`), then redeploy. WhatsApp may cache old previews.
 
 No data is collected by the site. RSVP opens WhatsApp on the guest's device.
